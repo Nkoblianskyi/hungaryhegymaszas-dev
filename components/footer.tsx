@@ -205,10 +205,6 @@ export function Footer() {
             {/* Coords + email in a ruled block */}
             <div className="flex flex-col gap-4 border-l-2 border-accent pl-4">
               <div className="flex flex-col gap-1">
-                <span className="font-mono text-[8px] uppercase tracking-[0.3em] text-foreground/40">Székhely</span>
-                <span className="font-mono text-xs text-foreground/75">47.4979° É / 19.0402° K</span>
-              </div>
-              <div className="flex flex-col gap-1">
                 <span className="font-mono text-[8px] uppercase tracking-[0.3em] text-foreground/40">Kapcsolat</span>
                 <a
                   href="mailto:info@hungaryhegymaszas.com"
